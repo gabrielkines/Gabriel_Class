@@ -5,12 +5,12 @@
 }
 
 body {
-  background-color: red
+  background-color: rgb(187, 187, 187)
 }
 
 .header-full {
   width: 100%;
-  background-color: blue;
+  background-color: rgb(73, 73, 73);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,9 +19,8 @@ body {
 
 
 .header-boxed {
-  width: 600px;
+  width: 90%;
   padding: 10px;
-  border: 1px red solid;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,19 +35,23 @@ body {
 }
 
 .main-boxed {
-  width: 600px;
-}
-
-
-.footer-full {
-  width: 100%;
-  background-color: blueviolet;
-  display:flex;
+  width: 1000px;
   align-items: center;
   justify-content: center;
 }
 
-.footer-boxed {
-  width: 600px;
-  background-color: bisque;
+.footer-full {
+  width: 100%;
+  background-color: rgb(73, 73, 73);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer-boxed {width: 90%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
